@@ -1,0 +1,258 @@
+body{
+	font-family: Roboto;
+}
+.btn-primary,
+.navbar,
+.show-all-showcase,
+.brand-text,
+h1,
+h3,
+h5 {
+    font-family: Montserrat
+}
+a:hover{
+	color:#7FDB58;
+}
+.navbar-brand{
+	color:#4DB52E;
+	font-weight:650;
+	text-decoration:none;
+	letter-spacing:-0.15px;
+	font-family: montserrat;
+	letter-spacing:0;
+}	
+.navbar-nav>li>a:hover {
+    background: 0 0;
+    color:#4DB52E;
+}
+.nav-link{
+	color:#010101;
+}
+.spacing{
+	margin-top:60px;
+}
+.navbar {
+    margin:0;
+    padding:0;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size:14px;
+}
+h1{
+    letter-spacing: -0.15px;
+}
+.hero-space{
+	padding-bottom:50px;
+}
+.hero{
+	width:636px;
+	height:451px;
+
+}
+.text-hero{
+	padding-top:150px;
+}
+.link-head{
+	padding-top:10px;
+	font-weight: 600;
+}
+.link-hero{
+	font-size:14px;
+  letter-spacing: -0.10px;
+	font-weight:600;
+	color:#4DB52E;
+}
+.header-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    -webkit-box-shadow: 0 2px 21px -10px rgba(0, 0, 0, .48);
+    -moz-box-shadow: 0 2px 21px -10px rgba(0, 0, 0, .48);
+    box-shadow: 0 2px 21px -10px rgba(0, 0, 0, .48)
+}
+.top-area-range {
+    padding-top: 7%
+}
+.header {
+    padding-top:2%;
+}
+.footer-contact-container,
+.header-fixed {
+    background-color: #fff
+}
+.about-team{
+	font-weight:600;
+	font-size:20px;	
+	text-align:center;
+}
+.spacing-hero{
+	padding-top:5%;
+	padding-bottom:5%;
+}
+.card{
+	box-shadow:0 2px 21px -10px rgba(0, 0, 0, .48)
+}
+.card-spacing{
+	margin-left:10%;
+
+}
+.line{
+	width:50px;
+	margin:3px auto;
+	margin-top:1%;
+	height:2px;
+	background-color:#cdcdcd;
+}
+.text-description{
+	font-size:12px;
+	font-weight:300px;
+	color:#B2B2B2;
+}
+.card-title{
+	letter-spacing:0;
+	font-weight:600;
+	font-size:16px;
+}
+.btn-card-space{
+	margin-top:10px;
+}
+.bg-success-gradient{
+  background-image:linear-gradient(to bottom right, #EEFF78, #28a745);
+}
+.company-mail a:hover{
+  text-decoration: none;
+  transition: .2s;
+}
+.company-mail{
+
+  letter-spacing: 0px;
+}
+.footer-l a:hover{
+  color: #7FDB58;
+  transition: .3s;
+  text-decoration: none;
+}
+.footer-l a{
+  color:#fff;
+}
+.footer-l{
+  font-size:13px;
+  font-weight:400;
+  letter-spacing: 0px;
+}
+.footer-r{
+  float:right;
+}
+.footer-r a i:hover {
+    color: #7FDB58;
+    transition: .3s
+}
+.footer-r i{
+  color:#fff;
+  margin-left:15px;
+}
+@media only screen and (max-width:1260px) {
+		.text-hero>h1{
+			font-size:36px;
+		}
+		.link-hero{
+			font-size:15px;
+		}
+    .card-spacing{
+    	margin-left:10%;
+    	margin-bottom:5%;
+    }	
+    .hero{
+    		margin-top:50px;
+        text-align: center;
+        width: 530px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1196px){
+  .card-spacing{
+    margin-left:2%;
+  }
+  .hero{
+        margin-top:50px;
+        text-align: center;
+        width: 480px;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1001px){
+
+	.spacing{
+		margin-top:-20px;
+	}
+	
+  .text-hero>h1{
+  	font-size:30px;
+  }
+  .link-hero{
+  	font-size:12px;
+  }
+  .text-hero>h3{
+  	font-size:20px;
+  }
+  .text-hero{
+  	margin-top:-30px;
+  }
+  .hero{
+  	margin-left:5%;
+  	width: 500px;
+  	height: auto;
+  }
+  @media only screen and (max-width: 991px){
+  	.spacing{
+  		margin-top:20px;
+  	}
+  	.navbar-brand{
+  		font-size:16px;
+  		font-weight:600;
+  	}
+  	.text-hero{
+  		text-align: center;
+  	}
+  	.link-head{
+  		text-align: center;
+  	}
+  	.hero{
+  		margin-left:19%;
+  		width:400px;
+  		height: auto;
+  	}
+  	.card-spacing{
+  		margin-left:29.50%;
+  	}
+  }
+  @media only screen and (max-width: 767px){
+  	.text-hero{
+  		text-align: center;
+  	}
+  	.link-head{
+  		text-align: center;
+  	}
+  	.hero{
+  		margin-left:20%;
+  		width:300px;
+  		height: auto;
+  	}
+  	.card-spacing{
+  		margin-left:21.50%;
+  	}
+  }
+  @media only screen and (max-width: 418px){
+  	.hero{
+  		margin-left:9%;
+  	}
+  	.spacing{
+  		margin-top:20px;
+  	}
+  	.card-spacing{
+  		margin-left: 12.50%;
+  	}
+  }
+}
